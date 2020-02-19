@@ -20,7 +20,7 @@ jobs:
           set -o xtrace
           workdir="$HOME/go/src/yunion.io/x"
           mkdir -p "$workdir"
-          mv "$HOME/work/pkg/pkg" "$workdir/"
+          cp "$HOME/work/pkg/pkg" "$workdir/"
       - name: go get dependencies
         shell: bash
         run: |
