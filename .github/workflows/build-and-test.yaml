@@ -1,11 +1,5 @@
 name: Build and test
-on:
-  pull_request:
-    types:
-      - assigned
-      - opened
-      - synchronize
-      - reopened
+on: push
 
 jobs:
   test:
