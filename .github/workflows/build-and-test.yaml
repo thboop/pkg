@@ -33,7 +33,7 @@ jobs:
           export GOPATH="$HOME/go"
           cd "$workdir/pkg"
           go get -v -t -d ./...
-      - name: run test
+      - name: run test 2
         shell: bash
         run: |
           set -o xtrace
