@@ -6,8 +6,6 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - run: ls
-      - run: pwd
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
